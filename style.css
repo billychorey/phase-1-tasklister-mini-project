@@ -35,3 +35,18 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+ul {
+  list-style: none;
+}
+
+li button {
+  display: inline-block;
+  margin-left: 4px;
+  background: violet;
+  color: white;
+}
+
+li button:hover {
+  background: purple;
+}
